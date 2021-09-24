@@ -1,0 +1,757 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblListViewExamResult.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblListViewExamResult.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="lblListViewExamResult.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 9</value>
+  </data>
+  <data name="lblListViewExamResult.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 22</value>
+  </data>
+  <data name="lblListViewExamResult.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblListViewExamResult.Text" xml:space="preserve">
+    <value>Received Exam Results</value>
+  </data>
+  <data name="&gt;&gt;lblListViewExamResult.Name" xml:space="preserve">
+    <value>lblListViewExamResult</value>
+  </data>
+  <data name="&gt;&gt;lblListViewExamResult.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblListViewExamResult.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblListViewExamResult.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="columnStudentMail.Text" xml:space="preserve">
+    <value>Student E-Mail</value>
+  </data>
+  <data name="columnStudentMail.Width" type="System.Int32, mscorlib">
+    <value>250</value>
+  </data>
+  <data name="columnExamResultDocument.Text" xml:space="preserve">
+    <value>Exam Result Document</value>
+  </data>
+  <data name="columnExamResultDocument.Width" type="System.Int32, mscorlib">
+    <value>450</value>
+  </data>
+  <data name="columnIP.Text" xml:space="preserve">
+    <value>IP</value>
+  </data>
+  <data name="columnIP.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="listViewExamResults.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 9pt</value>
+  </data>
+  <data name="listViewExamResults.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 34</value>
+  </data>
+  <data name="listViewExamResults.Size" type="System.Drawing.Size, System.Drawing">
+    <value>406, 677</value>
+  </data>
+  <data name="listViewExamResults.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;listViewExamResults.Name" xml:space="preserve">
+    <value>listViewExamResults</value>
+  </data>
+  <data name="&gt;&gt;listViewExamResults.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listViewExamResults.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;listViewExamResults.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblExamSessionInfo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblExamSessionInfo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="lblExamSessionInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>484, 34</value>
+  </data>
+  <data name="lblExamSessionInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 22</value>
+  </data>
+  <data name="lblExamSessionInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblExamSessionInfo.Text" xml:space="preserve">
+    <value>Exam Session Not Started</value>
+  </data>
+  <data name="&gt;&gt;lblExamSessionInfo.Name" xml:space="preserve">
+    <value>lblExamSessionInfo</value>
+  </data>
+  <data name="&gt;&gt;lblExamSessionInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblExamSessionInfo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblExamSessionInfo.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnExamSession.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnExamSession.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="btnExamSession.Location" type="System.Drawing.Point, System.Drawing">
+    <value>523, 59</value>
+  </data>
+  <data name="btnExamSession.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 45</value>
+  </data>
+  <data name="btnExamSession.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnExamSession.Text" xml:space="preserve">
+    <value>Start Session</value>
+  </data>
+  <data name="&gt;&gt;btnExamSession.Name" xml:space="preserve">
+    <value>btnExamSession</value>
+  </data>
+  <data name="&gt;&gt;btnExamSession.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnExamSession.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnExamSession.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblExamInfo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblExamInfo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="lblExamInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>479, 118</value>
+  </data>
+  <data name="lblExamInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 22</value>
+  </data>
+  <data name="lblExamInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblExamInfo.Text" xml:space="preserve">
+    <value>The Exam Has Not Started</value>
+  </data>
+  <data name="&gt;&gt;lblExamInfo.Name" xml:space="preserve">
+    <value>lblExamInfo</value>
+  </data>
+  <data name="&gt;&gt;lblExamInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblExamInfo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblExamInfo.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <metadata name="fileDialogExam.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="btnUploadFile.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnUploadFile.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnUploadFile.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="btnUploadFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>438, 143</value>
+  </data>
+  <data name="btnUploadFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 31</value>
+  </data>
+  <data name="btnUploadFile.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnUploadFile.Text" xml:space="preserve">
+    <value>Upload File</value>
+  </data>
+  <data name="&gt;&gt;btnUploadFile.Name" xml:space="preserve">
+    <value>btnUploadFile</value>
+  </data>
+  <data name="&gt;&gt;btnUploadFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnUploadFile.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnUploadFile.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txtExamText.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtExamText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 10.8pt</value>
+  </data>
+  <data name="txtExamText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 216</value>
+  </data>
+  <data name="txtExamText.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtExamText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>319, 386</value>
+  </data>
+  <data name="txtExamText.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtExamText.Name" xml:space="preserve">
+    <value>txtExamText</value>
+  </data>
+  <data name="&gt;&gt;txtExamText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtExamText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtExamText.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="numExamTime.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="numExamTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 9pt, style=Bold</value>
+  </data>
+  <data name="numExamTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>691, 148</value>
+  </data>
+  <data name="numExamTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 25</value>
+  </data>
+  <data name="numExamTime.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="numExamTime.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;numExamTime.Name" xml:space="preserve">
+    <value>numExamTime</value>
+  </data>
+  <data name="&gt;&gt;numExamTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numExamTime.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;numExamTime.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblExamTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblExamTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="lblExamTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>589, 148</value>
+  </data>
+  <data name="lblExamTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 22</value>
+  </data>
+  <data name="lblExamTime.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblExamTime.Text" xml:space="preserve">
+    <value>Exam Time: </value>
+  </data>
+  <data name="&gt;&gt;lblExamTime.Name" xml:space="preserve">
+    <value>lblExamTime</value>
+  </data>
+  <data name="&gt;&gt;lblExamTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblExamTime.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblExamTime.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="cbStudentsCanJoin.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbStudentsCanJoin.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cbStudentsCanJoin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>451, 608</value>
+  </data>
+  <data name="cbStudentsCanJoin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>276, 21</value>
+  </data>
+  <data name="cbStudentsCanJoin.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="cbStudentsCanJoin.Text" xml:space="preserve">
+    <value>Students can join after the exam starts.</value>
+  </data>
+  <data name="&gt;&gt;cbStudentsCanJoin.Name" xml:space="preserve">
+    <value>cbStudentsCanJoin</value>
+  </data>
+  <data name="&gt;&gt;cbStudentsCanJoin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbStudentsCanJoin.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbStudentsCanJoin.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnExam.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnExam.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnExam.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="btnExam.Location" type="System.Drawing.Point, System.Drawing">
+    <value>523, 635</value>
+  </data>
+  <data name="btnExam.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 45</value>
+  </data>
+  <data name="btnExam.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnExam.Text" xml:space="preserve">
+    <value>Start Exam</value>
+  </data>
+  <data name="&gt;&gt;btnExam.Name" xml:space="preserve">
+    <value>btnExam</value>
+  </data>
+  <data name="&gt;&gt;btnExam.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnExam.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnExam.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="columnStudentEMail.Text" xml:space="preserve">
+    <value>Student E-Mail</value>
+  </data>
+  <data name="columnStudentEMail.Width" type="System.Int32, mscorlib">
+    <value>250</value>
+  </data>
+  <data name="columnStudentIP.Text" xml:space="preserve">
+    <value>IP</value>
+  </data>
+  <data name="columnStudentIP.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="columnConnectionState.Text" xml:space="preserve">
+    <value>Connection State</value>
+  </data>
+  <data name="columnConnectionState.Width" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="columnExamState.Text" xml:space="preserve">
+    <value>Exam State</value>
+  </data>
+  <data name="columnExamState.Width" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="listViewStudents.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 9pt</value>
+  </data>
+  <data name="listViewStudents.Location" type="System.Drawing.Point, System.Drawing">
+    <value>753, 34</value>
+  </data>
+  <data name="listViewStudents.Size" type="System.Drawing.Size, System.Drawing">
+    <value>404, 677</value>
+  </data>
+  <data name="listViewStudents.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;listViewStudents.Name" xml:space="preserve">
+    <value>listViewStudents</value>
+  </data>
+  <data name="&gt;&gt;listViewStudents.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listViewStudents.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;listViewStudents.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblListViewStudent.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblListViewStudent.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="lblListViewStudent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>914, 9</value>
+  </data>
+  <data name="lblListViewStudent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 22</value>
+  </data>
+  <data name="lblListViewStudent.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblListViewStudent.Text" xml:space="preserve">
+    <value>Students</value>
+  </data>
+  <data name="&gt;&gt;lblListViewStudent.Name" xml:space="preserve">
+    <value>lblListViewStudent</value>
+  </data>
+  <data name="&gt;&gt;lblListViewStudent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblListViewStudent.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblListViewStudent.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="lblSelectedStudent.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSelectedStudent.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 10.2pt</value>
+  </data>
+  <data name="lblSelectedStudent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1180, 34</value>
+  </data>
+  <data name="lblSelectedStudent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 38</value>
+  </data>
+  <data name="lblSelectedStudent.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblSelectedStudent.Text" xml:space="preserve">
+    <value>Selected 
+Student/Students</value>
+  </data>
+  <data name="lblSelectedStudent.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblSelectedStudent.Name" xml:space="preserve">
+    <value>lblSelectedStudent</value>
+  </data>
+  <data name="&gt;&gt;lblSelectedStudent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSelectedStudent.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblSelectedStudent.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="btnSentMessage.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnSentMessage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="btnSentMessage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1166, 75</value>
+  </data>
+  <data name="btnSentMessage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 42</value>
+  </data>
+  <data name="btnSentMessage.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnSentMessage.Text" xml:space="preserve">
+    <value>Send Message</value>
+  </data>
+  <data name="&gt;&gt;btnSentMessage.Name" xml:space="preserve">
+    <value>btnSentMessage</value>
+  </data>
+  <data name="&gt;&gt;btnSentMessage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSentMessage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnSentMessage.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnQuestions.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnQuestions.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="btnQuestions.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnQuestions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1166, 123</value>
+  </data>
+  <data name="btnQuestions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 42</value>
+  </data>
+  <data name="btnQuestions.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnQuestions.Text" xml:space="preserve">
+    <value>Inbox</value>
+  </data>
+  <data name="&gt;&gt;btnQuestions.Name" xml:space="preserve">
+    <value>btnQuestions</value>
+  </data>
+  <data name="&gt;&gt;btnQuestions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnQuestions.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnQuestions.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="txtLessonName.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtLessonName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="txtLessonName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 180</value>
+  </data>
+  <data name="txtLessonName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>319, 30</value>
+  </data>
+  <data name="txtLessonName.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtLessonName.Name" xml:space="preserve">
+    <value>txtLessonName</value>
+  </data>
+  <data name="&gt;&gt;txtLessonName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtLessonName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtLessonName.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="errorProvider.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>174, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>120, 120</value>
+  </data>
+  <data name="$this.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1318, 727</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Academician</value>
+  </data>
+  <data name="&gt;&gt;columnStudentMail.Name" xml:space="preserve">
+    <value>columnStudentMail</value>
+  </data>
+  <data name="&gt;&gt;columnStudentMail.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnExamResultDocument.Name" xml:space="preserve">
+    <value>columnExamResultDocument</value>
+  </data>
+  <data name="&gt;&gt;columnExamResultDocument.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnIP.Name" xml:space="preserve">
+    <value>columnIP</value>
+  </data>
+  <data name="&gt;&gt;columnIP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fileDialogExam.Name" xml:space="preserve">
+    <value>fileDialogExam</value>
+  </data>
+  <data name="&gt;&gt;fileDialogExam.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnStudentEMail.Name" xml:space="preserve">
+    <value>columnStudentEMail</value>
+  </data>
+  <data name="&gt;&gt;columnStudentEMail.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnStudentIP.Name" xml:space="preserve">
+    <value>columnStudentIP</value>
+  </data>
+  <data name="&gt;&gt;columnStudentIP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnConnectionState.Name" xml:space="preserve">
+    <value>columnConnectionState</value>
+  </data>
+  <data name="&gt;&gt;columnConnectionState.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnExamState.Name" xml:space="preserve">
+    <value>columnExamState</value>
+  </data>
+  <data name="&gt;&gt;columnExamState.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;errorProvider.Name" xml:space="preserve">
+    <value>errorProvider</value>
+  </data>
+  <data name="&gt;&gt;errorProvider.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ErrorProvider, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>AcademicianForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

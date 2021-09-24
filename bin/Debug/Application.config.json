@@ -1,0 +1,36 @@
+{
+  "DefaultServerPort": 50,
+  "DefaultServerDHCPFormat": "192.168.0.",
+  "IPRangeForScanStart": 2,
+  "IPRangeForScanEnd": 256,
+  "HostName": "ASUS-FX503VD",
+  "AddressFamily": "InterNetwork",
+  "ProtocolType": "Tcp",
+  "SocketType": "Stream",
+  "DataByteCount": 1048576,
+  "DefaultExamDocumentPath": "ExamDocuments",
+  "ResponseCodes": {
+    "200": "OK",
+    "201": "Accepted",
+    "100": "Waiting to login",
+    "101": "Waiting to register",
+    "102": "Exam document",
+    "103": "Academician note",
+    "104": "Answer to question",
+    "105": "Session Stopped",
+    "106": "Exam Finished",
+    "400": "Not OK",
+    "401": "Not ACCEPTED",
+    "402": "Failed"
+  },
+  "RequestCodes": {
+    "200": "Connect",
+    "201": "Disconnect",
+    "202": "Login",
+    "203": "Register",
+    "204": "Take the exam",
+    "205": "Ask the academician a question",
+    "100": "Waiting for the exam to start",
+    "101": "Submit exam result"
+  }
+}
